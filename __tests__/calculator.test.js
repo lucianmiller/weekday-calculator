@@ -9,7 +9,7 @@ describe('WeekdayCalculator', () => {
 
   test('should return a numerical value for a weekday.', () => {
     let day = new WeekdayCalculator(5, 25, 2021);
-    let weekday = DayOfTheWeek();
+    const weekday = day.DayOfTheWeek();
     expect(weekday).toEqual(5);
   })
 })

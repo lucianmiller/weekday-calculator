@@ -21,6 +21,8 @@ export default class WeekdayCalculator {
       return "Thursday";
     } else if (day === 5) {
       return "Friday";
+    } else if (day === 6) {
+      return "Saturday";
     }
   }
 }

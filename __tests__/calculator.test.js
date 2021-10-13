@@ -26,4 +26,11 @@ describe('WeekdayCalculator', () => {
     const weekdayString = day.WhichDay(weekday);
     expect(weekdayString).toEqual("Monday");
   })
+
+  test('should return tuesday if day equals 2.', () => {
+    let day = new WeekdayCalculator(10, 12, 2021);
+    const weekday = day.DayOfTheWeek();
+    const weekdayString = day.WhichDay(weekday);
+    expect(weekdayString).toEqual("tuesday");
+  })
 })

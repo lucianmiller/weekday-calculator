@@ -11,6 +11,8 @@ export default class WeekdayCalculator {
   WhichDay(day) {
     if (day === 0) {
       return "Sunday";
+    } else if (day === 1) {
+      return "Monday";
     }
   }
 }

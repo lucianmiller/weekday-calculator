@@ -47,10 +47,18 @@ describe('WeekdayCalculator', () => {
     const weekdayString = day.WhichDay(weekday);
     expect(weekdayString).toEqual("Thursday");
   })
+
   test('should return friday if day equals 5.', () => {
     let day = new WeekdayCalculator(10, 15, 2021);
     const weekday = day.DayOfTheWeek();
     const weekdayString = day.WhichDay(weekday);
     expect(weekdayString).toEqual("Friday");
+  })
+
+  test('should return saturday if day equals 6.', () => {
+    let day = new WeekdayCalculator(10, 16, 2021);
+    const weekday = day.DayOfTheWeek();
+    const weekdayString = day.WhichDay(weekday);
+    expect(weekdayString).toEqual("Saturday");
   })
 })

@@ -1,31 +1,30 @@
-# _{Application Name}_
+# Weekday Calculator
 
-#### _{Brief description of application}, {Date of current version}_
+#### Webpack project for Epicodus, 10/14/2021
 
 #### By Lucian Miller
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+Ever wonder what day of the week your birthday was on? This website can answer that question for you! Enter the month, day and year numbers to get your answer! This website was used to practice webpack.
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+* Clone this repository
+* Type npm install in your terminal
+* Type npm run start in your terminal
+* Input desired month, day and year into boxes
+* To close webpage, hold Ctrl+C in your terminal
 
 # Specs
 
 |Description|Input|Output
 |:--:|:--:|:--:|
+|Will show user the day of the week of inputted date| Month: 11 Day: 30 Year: 1998| Monday|
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+No known bugs as of this version
 
 ## Support and contact details
 
@@ -33,10 +32,15 @@ lucian.miller185@gmail.com
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+* git
+* VS code
+* HTML
+* Javascript
+* jQuery
+* webpack
 
 ### License
 
-*This software is licensed under the (blank) license*
+*This software is licensed under the MIT license*
 
 Copyright (c) 2021 Lucian Miller
